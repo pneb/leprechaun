@@ -1,12 +1,18 @@
 from setuptools import setup
 
+with open('README.md') as fp:
+    long_description = fp.read()
+
 setup(
     name='leprechaun',
-    version='0.1.0',
+    version='0.0.1',
     packages=['leprechaun'],
-    description='A lightweight and efficient asyncio-like library for Python 3',
+    description='A lightweight and efficient asyncio-like library for Python 3.',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     author='Bernward Sanchez',
-    author_email='contact@bern.codes',
+    url='https://github.com/bernward/leprechaun',
+    author_email='bernward.sanchez@gmail.com',
     license='MIT',
     install_requires=[],
     classifiers=[
@@ -17,4 +23,3 @@ setup(
         'Topic :: Software Development :: Libraries',
     ],
 )
-
