@@ -11,8 +11,8 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Bernward Sanchez',
-    url='https://github.com/bernward/leprechaun',
-    author_email='bernward.sanchez@gmail.com',
+    url='https://github.com/pneb/leprechaun',
+    author_email='contact@bern.codes',
     license='MIT',
     install_requires=[],
     classifiers=[
